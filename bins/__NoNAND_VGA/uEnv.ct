@@ -1,0 +1,6 @@
+extraargs=disp.screen0_output_type=4 disp.screen0_output_mode=1280x720p50 consoleblank=0 cubietruck panic=10 rootfstype=ext4 rootflags=discard  
+sunxi_ve_mem_reserve=128  
+root=/dev/sda1 rootwait 
+partition=0:1 
+kernel=/uImage.3.4.79-sun7i+ 
+script=script-ct.bin
