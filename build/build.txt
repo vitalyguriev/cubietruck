@@ -12,3 +12,5 @@ sudo apt-get install libswitch-perl
 
 to resolve 
 Can't locate Switch.pm in @INC (you may need to install the Switch module) 
+sudo apt-get install libswitch-perl
+
