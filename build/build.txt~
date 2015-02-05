@@ -1,0 +1,7 @@
+sudo apt-get install git gnupg flex bison gperf build-essential zip curl libc6-dev libncurses5-dev:i386 x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 mingw32 tofrodos python-markdown libxml2-utils xsltproc zlib1g-dev:i386 libgl1-mesa-glx:i386 libgl1-mesa-dev texinfo zlib1g-dev u-boot-tools
+
+
+comment out warning for gets  stdio.h in 
+V2.0_A20/lichee/out/linux/common/buildroot/build/host-m4-1.4.15
+
+like //_GL_WARN_ON_USE (gets, "gets is a security hole - use fgets instead");
